@@ -1,0 +1,12 @@
+#boxContainer{
+    background-color: var(--boxBackground);
+    border: var(--boxBorder);
+    border-radius: var(--boxBorderRadius);
+}
+
+
+#whiteBoxContainer{
+    background-color: white;
+    border: 2px solid #c5c5c5;
+    border-radius: var(--boxBorderRadius);
+}
