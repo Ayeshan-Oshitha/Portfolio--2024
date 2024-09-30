@@ -9,9 +9,8 @@ function App() {
   return (
     <>
       <Router>
-        <div className="mx-6 md:mx-20 lg:mx-8 xl:mx-24 mt-8">
-
-
+      <div className="flex justify-center items-center min-h-screen">
+      <div className=" mx-6 md:mx-20 lg:mx-8 xl:mx-24 mt-8  w-full max-w-[1600px]">
           <Navigation />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -19,7 +18,7 @@ function App() {
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/testimonials" element={<Testimonials/>} />
           </Routes>
-
+          </div>
         </div>
       </Router>
     </>

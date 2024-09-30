@@ -13,9 +13,8 @@ const Testimonials = () => {
             <TestimonialCard/>
             <TestimonialCard/>
             <TestimonialCard/>
-            <TestimonialCard/> */}
-            {/* <TestimonialCard/> */}
-
+            <TestimonialCard/> 
+             <TestimonialCard/> */}
 
             <GraphicProjectCard />
             <GraphicProjectCard />
