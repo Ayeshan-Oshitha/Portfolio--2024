@@ -10,7 +10,7 @@ function App() {
     <>
       <Router>
       <div className="flex justify-center items-center min-h-screen">
-      <div className=" mx-6 md:mx-20 lg:mx-8 xl:mx-24 mt-8  w-full max-w-[1600px]">
+      <div className=" mx-8 sm:mx-10 md:mx-20 lg:mx-8 xl:mx-24 mt-8  w-full max-w-[1700px]">
           <Navigation />
           <Routes>
             <Route path="/" element={<Home />} />

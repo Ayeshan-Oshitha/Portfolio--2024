@@ -160,8 +160,8 @@ const Home = () => {
         {/* ---------- Graphic Design Section ---------- */}
         <div className='min-h-20 col-span-12  lg:col-span-4 lg:row-span-2 px-6 lg:px-6 py-2 flex flex-col items-center lg:order-2 ' id={styles.boxContainer}>
          <p className='mt-3 self-start ml-4 text-xl'>Graphic Design Projects</p>
-          <img src={graphicImage} className=' w-80 lg:w-80 lg:h-72  rounded-xl mt-4 object-cover transform transition-transform duration-300 hover:scale-105' />
-          <NavLink to="/about" className='flex flex-row items-center mt-6  mb-6 lg:mt-5 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+          <img src={graphicImage} className=' w-80 lg:w-80 lg:h-72  rounded-xl mt-6 object-cover transform transition-transform duration-300 hover:scale-105' />
+          <NavLink to="/about" className='flex flex-row items-center mt-6  mb-6 lg:mt-3 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
             <p className='text-md tracking-wide'>Graphic Design Projects</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
           </NavLink>

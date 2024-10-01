@@ -31,3 +31,17 @@ h3 {
     margin: 0;
     padding: 0;
 }
+
+
+input:-webkit-autofill {
+    background-color: white !important;
+}
+
+input:-webkit-autofill::first-line {
+    font-size: 16px; /* You can customize this */
+    color: white; /* Customize text color */
+}
+
+input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+}
