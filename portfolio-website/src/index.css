@@ -38,8 +38,8 @@ input:-webkit-autofill {
 }
 
 input:-webkit-autofill::first-line {
-    font-size: 16px; /* You can customize this */
-    color: white; /* Customize text color */
+    font-size: 16px; 
+    color: white; 
 }
 
 input:-webkit-autofill {
