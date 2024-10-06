@@ -5,7 +5,6 @@ import { LiaArrowCircleRightSolid } from "react-icons/lia";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareBehance } from "react-icons/fa6";
-import { BiLogoGmail } from "react-icons/bi";
 import { FaStackOverflow } from "react-icons/fa6";
 import { IoLogoMedium } from "react-icons/io5";
 import { NavLink } from 'react-router-dom';
@@ -53,18 +52,18 @@ const Home = () => {
         </div>
 
         {/* ---------- Social Media section ---------- */}
-        <div className='min-h-20 col-span-12  lg:col-span-5 2xl:col-span-6 lg:row-span-1  px-6 lg:px-6 py-2 flex flex-col order-5 lg:order-3' id={styles.boxContainer}>
-          <div className='flex flex-row justify-around mt-7 text-6xl text-gray-200 '>
+        <div className='min-h-20 col-span-12  lg:col-span-5 2xl:col-span-6 lg:row-span-1  px-6 lg:px-6 py-8 lg:py-2 flex flex-col order-5 lg:order-3' id={styles.boxContainer}>
+          <div className='flex flex-row justify-around items-center h-full  text-6xl text-gray-200 '>
             <FaSquareGithub className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
             <FaLinkedin className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
             <FaSquareBehance className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
             <FaStackOverflow className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
             <IoLogoMedium className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
           </div>
-          <NavLink to="/about" className='flex flex-row items-center mt-8 mb-2 lg:mb-0 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+          {/* <NavLink to="/about" className='flex flex-row items-center mt-8 mb-2 lg:mb-0 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
             <p className='text-md tracking-wide'>Profiles</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
-          </NavLink>
+          </NavLink> */}
         </div>
 
         {/* ---------- Services Offering ---------- */}
@@ -89,7 +88,7 @@ const Home = () => {
             </div>
 
           </div>
-          <NavLink to="/about" className='flex flex-row items-center mt-8 mb-2 lg:mt-0 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+          <NavLink to="/services" className='flex flex-row items-center mt-8 mb-2 lg:mt-0 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
             <p className='text-md tracking-wide'>All Services</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
           </NavLink>
@@ -113,17 +112,17 @@ const Home = () => {
 
         {/* ---------- Articles section ---------- */}
         <div className='min-h-20 col-span-6  lg:col-span-3 lg:row-span-1 px-6 lg:px-6 py-2 w-full order-3 lg:order-6' id={styles.boxContainer}>
-          <p className='text-4xl font-medium mt-4'>Articles</p>
-          <p className=' text-2xl lg:text-xl  xl:text-2xl font-normal pl-7'>& Publications</p>
-          <NavLink to="/about" className='flex flex-row items-center  mt-10  justify-between w-full hover:text-purple-400 transform transition-transform duration-300 hover:scale-105'>
+          <p className='text-2xl md:text-4xl font-medium mt-4'>Articles</p>
+          <p className='text-lg md:text-2xl lg:text-xl  xl:text-2xl font-normal pl-7'>& Publications</p>
+          <NavLink to="/articles" className='flex flex-row items-center  mt-10  justify-between w-full hover:text-purple-400 transform transition-transform duration-300 hover:scale-105'>
             <p className='text-md tracking-wide '>All blog</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
           </NavLink>
         </div>
 
         {/* ---------- Technology section ---------- */}
-        <div className='min-h-20 col-span-12  lg:col-span-9 lg:row-span-1 flex flex-col px-6 lg:px-6 py-2  justify-center order-7 lg:order-7' id={styles.boxContainer}>
-          <div className='flex flex-row  gap-10 justify-center text-6xl mt-8 flex-grow flex-wrap lg:flex-nowrap'>
+        <div className='min-h-20 col-span-12  lg:col-span-9 lg:row-span-1 flex flex-col px-6 py-8 lg:px-6 lg:py-4  justify-center order-7 lg:order-7' id={styles.boxContainer}>
+          <div className='flex flex-row  gap-10 justify-center items-center text-6xl flex-grow flex-wrap lg:flex-nowrap'>
             <FaReact className='text-sky-400 transform transition-transform duration-700 hover:scale-125' />
             <AiOutlineDotNet className='text-purple-600 transform transition-transform duration-700 hover:scale-125' />
             <SiSpringboot className='text-lime-500 transform transition-transform duration-700 hover:scale-125' />
@@ -134,10 +133,10 @@ const Home = () => {
             <RiTailwindCssFill className='text-teal-400 transform transition-transform duration-700 hover:scale-125' />
             <FaBootstrap className='text-purple-500 transform transition-transform duration-700 hover:scale-125' />
           </div> 
-          <NavLink to="/about" className='flex flex-row items-center  mt-4 lg:mt-0 mb-2 lg:mb-2 lg:px-6 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+          {/* <NavLink to="/technologies" className='flex flex-row items-center  mt-4 lg:mt-0 mb-2 lg:mb-2 lg:px-6 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
             <p className='text-md tracking-wide'>Technologies</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
-          </NavLink>
+          </NavLink> */}
         </div>
 
       </div>
@@ -150,7 +149,7 @@ const Home = () => {
           <p className='self-start ml-6 mt-4 lg:mt-8 text-2xl'>See My Latest</p>
           <p className='self-start ml-6 text-3xl mt-2'>Web Design Projects</p>
           <img src={webImage} className=' w-80  rounded-xl mt-10 object-cover transition-transform duration-300 hover:scale-105' />
-          <NavLink to="/about" className='flex flex-row items-center mt-6  mb-2 lg:mt-14 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+          <NavLink to="/webProjects" className='flex flex-row items-center mt-6  mb-2 lg:mt-14 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
             <p className='text-md tracking-wide'>All Projects</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
           </NavLink>
@@ -161,7 +160,7 @@ const Home = () => {
         <div className='min-h-20 col-span-12  lg:col-span-4 lg:row-span-2 px-6 lg:px-6 py-2 flex flex-col items-center lg:order-2 ' id={styles.boxContainer}>
          <p className='mt-3 self-start ml-4 text-xl'>Graphic Design Projects</p>
           <img src={graphicImage} className=' w-80 lg:w-80 lg:h-72  rounded-xl mt-6 object-cover transform transition-transform duration-300 hover:scale-105' />
-          <NavLink to="/about" className='flex flex-row items-center mt-6  mb-6 lg:mt-3 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+          <NavLink to="/graphicProjects" className='flex flex-row items-center mt-6  mb-6 lg:mt-3 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
             <p className='text-md tracking-wide'>Graphic Design Projects</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
           </NavLink>
@@ -172,7 +171,7 @@ const Home = () => {
           <p className='text-lg mt-4 lg:mt-0'>See My Latest </p>
           <p className='lg:ml-6  text-4xl lg:text-3xl text-purple-600'>Web Design</p>
           <p className='lg:ml-40 text-2xl text-purple-600'>Reviews</p>
-          <NavLink to="/about" className='flex flex-row items-center  mb-6 mt-4 lg:mt-0 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+          <NavLink to="/webTestimonials" className='flex flex-row items-center  mb-6 mt-4 lg:mt-0 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
             <p className='text-md tracking-wide'>Reviews</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
           </NavLink>
@@ -183,7 +182,7 @@ const Home = () => {
           <p className='text-lg mt-4 lg:mt-0'>See My Latest </p>
           <p className='lg:ml-6 text-4xl lg:text-3xl text-purple-600'>Graphic Design</p>
           <p className='lg:ml-40 text-2xl text-purple-600'>Reviews</p>
-          <NavLink to="/about" className='flex flex-row items-center  mb-6 mt-4 lg:mt-0 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+          <NavLink to="/graphicTestimonials" className='flex flex-row items-center  mb-6 mt-4 lg:mt-0 lg:mb-2 justify-between w-full hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
             <p className='text-md tracking-wide'>Reviews</p>
             <LiaArrowCircleRightSolid className='text-3xl ' />
           </NavLink>
@@ -194,7 +193,7 @@ const Home = () => {
         <div className='min-h-20 col-span-12  lg:col-span-8 lg:row-span-1 px-12 lg:px-8 py-2  lg:order-5' id={styles.boxContainer}>
           <div className=' flex flex-row justify-between  items-end w-full h-full pb-5'>
             <p className=' text-5xl md:text-6xl lg:text-6xl  xl:text-7xl'>Let's Work <span className='text-purple-600'>together</span></p>
-            <NavLink to="/about" className='  hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
+            <NavLink to="/contact" className='  hover:text-purple-400 transform transition-transform duration-500 hover:scale-105'>
               <LiaArrowCircleRightSolid className='text-3xl ' />
             </NavLink>
           </div>
