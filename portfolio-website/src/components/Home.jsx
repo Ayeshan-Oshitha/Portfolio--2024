@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Container.module.css'
-import ProfileImg from '../assets/images/ProfileImg.jpg'
+import ProfileImg from '../assets/images/Home/ProfileImg.jpg'
 import { LiaArrowCircleRightSolid } from "react-icons/lia";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -8,8 +8,8 @@ import { FaSquareBehance } from "react-icons/fa6";
 import { FaStackOverflow } from "react-icons/fa6";
 import { IoLogoMedium } from "react-icons/io5";
 import { NavLink } from 'react-router-dom';
-import graphicImage from '../assets/images/GraphicProjectImg.jpg'
-import webImage from '../assets/images/WebProjectImg.jpg'
+import graphicImage from '../assets/images/Home/GraphicProjectImg.jpg'
+import webImage from '../assets/images/Home/WebProjectImg.jpg'
 
 import { MdOutlineMobileScreenShare } from "react-icons/md";
 import { GiClick } from "react-icons/gi";

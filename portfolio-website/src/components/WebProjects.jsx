@@ -1,8 +1,11 @@
 import React from 'react'
+import InProgressPage from './InProgressPage'
 
 const WebProjects = () => {
   return (
-    <div>WebProjects</div>
+    <>
+    <InProgressPage text='Projects will be added soon.' />
+    </>
   )
 }
 

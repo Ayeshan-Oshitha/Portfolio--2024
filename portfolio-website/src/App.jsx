@@ -16,9 +16,9 @@ function App() {
   return (
     <>
       <Router>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center  selection:bg-cyan-300 selection:text-cyan-900">
       <div className=" mx-8 sm:mx-10 md:mx-20 lg:mx-8 xl:mx-24 mt-8  w-full max-w-[1700px]">
-          <Navigation  />
+          <Navigation />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About/>} />

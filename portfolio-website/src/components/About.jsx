@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Container.module.css'
-import ProfileImg from '../assets/images/ProfileImg.jpg'
+import ProfileImg from '../assets/images/Home/ProfileImg.jpg'
 import { NavLink } from 'react-router-dom';
 
 import { LiaArrowCircleRightSolid } from "react-icons/lia";

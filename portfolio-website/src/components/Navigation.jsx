@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styles from '../styles/Container.module.css'
+import { useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { MdArrowOutward } from "react-icons/md";
@@ -13,6 +14,8 @@ const Navigation = () => {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+    const navigate = useNavigate();
+
     const handleMouseEnter = () => {
         setDropdownOpen(true);
     };
@@ -24,6 +27,10 @@ const Navigation = () => {
     const toggleMobileMenu = () => {
         setMobileMenuOpen(!isMobileMenuOpen);
     };
+
+    const handleButtonClick = () => {
+        navigate('/contact')
+    }
 
     return (
         <div className='grid grid-cols-12 gap-x-1  h-20 mb-20 relative'
@@ -42,20 +49,20 @@ const Navigation = () => {
             <div className=' col-span-4 lg:col-span-7 justify-center items-center gap-7 text-lg hidden lg:flex order-3 lg:order-2  '>
                 <NavLink to="/" className='hover:text-purple-400'>Home</NavLink>
                 <NavLink to="/about" className='hover:text-purple-400'>About</NavLink>
-                <NavLink to="/" className='hover:text-purple-400'>Projects</NavLink>
-                <NavLink to="/" className='hover:text-purple-400'>Services</NavLink>
+                <NavLink to="/webProjects" className='hover:text-purple-400'>Projects</NavLink>
+                <NavLink to="/services" className='hover:text-purple-400'>Services</NavLink>
                 <div 
-                    className='flex flex-row items-center relative hover:text-purple-400 '
+                    className='flex flex-row items-center relative hover:text-purple-400 cursor-pointer'
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}>
                     <p >Other</p>
                     <RiArrowDropDownLine className='text-4xl ' />
                     {isDropdownOpen && (
-                        <div className='absolute top-9 z-10 w-56 flex flex-col items-start px-3 py-2 gap-y-1 text-white' id={styles.boxContainer}>
+                        <div className='absolute top-9 text-base z-10 w-52 flex flex-col items-start px-3 py-2 gap-y-1 text-white' id={styles.boxContainer}>
                             <NavLink to="/articles" className='hover:text-purple-400'>Articles</NavLink>
                             <NavLink to="/graphicProjects" className='hover:text-purple-400'>Graphic Projects</NavLink>
-                            <NavLink to="/webTestimonials" className='hover:text-purple-400'>Full StackReviews</NavLink>
-                            <NavLink to="/graphicTestimonials" className='hover:text-purple-400'>Graphic DesignReviews</NavLink>
+                            <NavLink to="/webTestimonials" className='hover:text-purple-400'>Full Stack Reviews</NavLink>
+                            <NavLink to="/graphicTestimonials" className='hover:text-purple-400'>Graphic Design Reviews</NavLink>
                         </div>
                     )}
                 </div>
@@ -83,7 +90,7 @@ const Navigation = () => {
             )}
 
             {/* Chat Section */}
-            <div className='col-span-7 lg:col-span-3 justify-center items-center flex flex-row order-2 lg:order-3'>
+            <div className='col-span-7 lg:col-span-3 justify-center items-center flex flex-row order-2 lg:order-3 cursor-pointer' onClick={handleButtonClick}>
                 <button className='bg-purple-500 px-5 py-2 text-lg rounded-3xl hov'>Let's Talk</button>
                 <div className='bg-purple-500 w-11 h-11 rounded-full flex justify-center items-center'>
                 <MdArrowOutward className='text-3xl'/>

@@ -1,8 +1,9 @@
 import React from 'react'
+import InProgressPage from './InProgressPage'
 
 const WebTestimonials = () => {
   return (
-    <div>WebTestimonials</div>
+    <InProgressPage text='Reviews will be added soon.' />
   )
 }
 
