@@ -146,3 +146,37 @@ export const GRAPHIC_PROJECTS = [
   }
 ]
 
+
+export const WEB_PROJECTS = [
+  {
+    title: "Clipess",
+    mainCateogary: "Web Design",
+    type: "Employee Management System",
+    startDate:"2023/12/19",
+    endDate:"2024/7/10",
+    status: "Completed",
+    images: [Pro1img1, Pro1img2, Pro1img3, Pro1img4, Pro1img5],
+    description : " Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace "               
+  },
+  {
+    title: "Clipess",
+    mainCateogary: "Web Design",
+    type: "Employee Management System",
+    startDate:"2023/12/19",
+    endDate:"2024/7/10",
+    status: "Completed",
+    images: [Pro1img1, Pro1img2, Pro1img3, Pro1img4, Pro1img5],
+    description : " Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace "               
+  },
+  {
+    title: "Clipess",
+    mainCateogary: "Web Design",
+    type: "Employee Management System",
+    startDate:"2023/12/19",
+    endDate:"2024/7/10",
+    status: "Completed",
+    images: [Pro1img1, Pro1img2, Pro1img3, Pro1img4, Pro1img5],
+    description : " Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace "               
+  }
+]
+

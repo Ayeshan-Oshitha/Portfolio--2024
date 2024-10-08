@@ -11,6 +11,8 @@ import { FaSquareBehance } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaStackOverflow } from "react-icons/fa6";
 import { IoLogoMedium } from "react-icons/io5";
+import { FaSquareUpwork } from "react-icons/fa6";
+import { SiFiverr } from "react-icons/si";
 
 const About = () => {
   return (
@@ -88,6 +90,8 @@ const About = () => {
             <FaSquareBehance className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
             <FaStackOverflow className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
             <IoLogoMedium className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
+            <FaSquareUpwork className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
+            <SiFiverr className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
           </div>
         </div>
 
