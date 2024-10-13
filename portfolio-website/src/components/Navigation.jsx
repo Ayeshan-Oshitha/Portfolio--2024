@@ -51,6 +51,7 @@ const Navigation = () => {
                 <NavLink to="/about" className='hover:text-purple-400'>About</NavLink>
                 <NavLink to="/webProjects" className='hover:text-purple-400'>Projects</NavLink>
                 <NavLink to="/services" className='hover:text-purple-400'>Services</NavLink>
+                <NavLink to="/contact" className='hover:text-purple-400'>Contact</NavLink>
                 <div 
                     className='flex flex-row items-center relative hover:text-purple-400 cursor-pointer'
                     onMouseEnter={handleMouseEnter}
@@ -83,9 +84,11 @@ const Navigation = () => {
                     <NavLink to="/about" className=' hover:text-purple-400' onClick={toggleMobileMenu} >About</NavLink>
                     <NavLink to="/webTestimonials" className=' hover:text-purple-400' onClick={toggleMobileMenu}>Projects</NavLink>
                     <NavLink to="/services" className=' hover:text-purple-400' onClick={toggleMobileMenu}>Services</NavLink>
+                    <NavLink to="/contact" className=' hover:text-purple-400' onClick={toggleMobileMenu}>Contact</NavLink>
                     <NavLink to="/articles" className=' hover:text-purple-400' onClick={toggleMobileMenu}>Articles</NavLink>
                     <NavLink to="/graphicProjects" className=' hover:text-purple-400' onClick={toggleMobileMenu}>Graphic Projects</NavLink>
-                    <NavLink to="/graphicTestimonials" className=' hover:text-purple-400' onClick={toggleMobileMenu}>Reviews</NavLink>
+                    <NavLink to="/webTestimonials" className=' hover:text-purple-400' onClick={toggleMobileMenu}>Web Design Reviews</NavLink>
+                    <NavLink to="/graphicTestimonials" className=' hover:text-purple-400' onClick={toggleMobileMenu}>Graphic Design Reviews</NavLink>
                 </div>
             )}
 

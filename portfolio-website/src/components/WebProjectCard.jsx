@@ -74,7 +74,7 @@ const WebProjectCard = ({project}) => {
           <p className="text-base mt-4 tracking-wider">{project.endDate}</p>
           <button
             onClick={handleViewMore}
-            className="mt-4 bg-purple-500 px-3 py-2 rounded-lg hover:bg-purple-700"
+            className="mt-4 mb-4 bg-purple-500 px-3 py-2 rounded-lg hover:bg-purple-700"
           >
             View More
           </button>

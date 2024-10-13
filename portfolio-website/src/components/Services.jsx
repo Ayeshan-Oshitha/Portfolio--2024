@@ -175,12 +175,12 @@ const Services = () => {
             <div className="flex flex-row items-center justify-center gap-4 md:gap-10">
               <p className='text-3xl'>Want to Hire me?</p>
               <div className='flex fex-row items-center gap-4 md:gap-8'>
-              <SiFiverr className='text-6xl cursor-pointer' style={{ color: '#1DBF73' }}/>
-              <FaSquareUpwork className='text-5xl cursor-pointer' style={{ color: '#6FDA44' }} />
+              <a href='https://www.fiverr.com/ayeshan_27?public_mode=true' target="_blank"> <SiFiverr className='text-6xl cursor-pointer' style={{ color: '#1DBF73' }}/> </a>
+              <a href='https://www.upwork.com/freelancers/~017985443d957402c2?mp_source=share' target="_blank"><FaSquareUpwork className='text-5xl cursor-pointer' style={{ color: '#6FDA44' }} /> </a>
               </div>
             </div>
             <div className='flex flex-row'> 
-              <p className='text-xl bg-purple-600 hover:bg-purple-700 cursor-pointer py-2 px-4 rounded-2xl'>See my latest Projects</p>
+             <a href='/webProjects'> <p className='text-xl bg-purple-600 hover:bg-purple-700 cursor-pointer py-2 px-4 rounded-2xl'>See my latest Projects</p></a>
             </div>
           </div>
 

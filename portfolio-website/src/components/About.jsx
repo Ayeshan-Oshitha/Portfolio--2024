@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/Container.module.css'
 import ProfileImg from '../assets/images/Home/ProfileImg.jpg'
+import cv from '../assets/CV/Ayeshan_Oshitha.pdf'
 import { NavLink } from 'react-router-dom';
 
 import { LiaArrowCircleRightSolid } from "react-icons/lia";
@@ -26,8 +27,10 @@ const About = () => {
           <p className='mt-6 text-4xl tracking-wider'>Hello, </p>
           <p className='mt-2 text-3xl tracking-wider'>I'm Ayeshan Oshitha,</p>
           <p className='mt-1 text-3xl'> an enthustiatic Full Stack Developer</p>
-          <p className='mt-6 text-base text-gray-400'>As a skilled Product designer, illustrator, and visual development expert, my diverse background has allowed me to apply my talents across different fields and industries, demonstrating adaptability and versatility.</p>
-          <button className=' mt-4 mb-4 lg:mt-6 xl:mt-8 lg:mb-2 bg-purple-600 px-5 py-2 text-lg rounded-full cursor-pointer hover:bg-purple-700'>Download CV</button>
+          <p className='mt-6 text-base text-gray-400'>As a skilled intern software engineer, my diverse background allows me to apply my technical talents across different fields and industries, demonstrating adaptability and versatility in problem-solving and software development.</p>
+          <a href={cv} download="Ayeshan Oshitha CV.pdf">
+          <button className=' mt-4 mb-4  lg:mt-3 xl:mt-6 lg:mb-4 bg-purple-600 px-5 py-2 text-lg rounded-full cursor-pointer hover:bg-purple-700'>Download CV</button>
+          </a>
         </div>
 
         {/* ---------- Image Section ---------- */}
@@ -85,13 +88,13 @@ const About = () => {
         {/* ---------- Profile Section ---------- */}
         <div className='min-h-20 col-span-12  lg:col-span-7 px-12 lg:px-6 py-8 lg:py-2 flex flex-col justify-center items-center' id={styles.boxContainer}>
           <div className='flex flex-row flex-wrap justify-around text-6xl gap-4 lg:gap-2 text-gray-200 w-full '>
-            <FaSquareGithub className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
-            <FaLinkedin className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
-            <FaSquareBehance className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
-            <FaStackOverflow className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
-            <IoLogoMedium className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
-            <FaSquareUpwork className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
-            <SiFiverr className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
+          <a href='https://github.com/Ayeshan-Oshitha' target="_blank"><FaSquareGithub className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /> </a>
+          <a href='https://www.linkedin.com/in/oshitha-costa-740167325/' target="_blank"><FaLinkedin className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /></a>
+          <a href='https://www.behance.net/ayeshan_oshitha' target="_blank"> <FaSquareBehance className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /></a>
+          <a href='' target="_blank"> <FaStackOverflow className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /></a>
+          <a href='' target="_blank"> <IoLogoMedium className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /></a>
+          <a href='https://www.fiverr.com/ayeshan_27?public_mode=true' target="_blank"> <FaSquareUpwork className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /></a>
+          <a href='https://www.upwork.com/freelancers/~017985443d957402c2?mp_source=share' target="_blank"> <SiFiverr className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /></a>
           </div>
         </div>
 

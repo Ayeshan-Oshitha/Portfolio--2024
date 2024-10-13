@@ -54,9 +54,9 @@ const Home = () => {
         {/* ---------- Social Media section ---------- */}
         <div className='min-h-20 col-span-12  lg:col-span-5 2xl:col-span-6 lg:row-span-1  px-6 lg:px-6 py-8 lg:py-2 flex flex-col order-5 lg:order-3' id={styles.boxContainer}>
           <div className='flex flex-row justify-around items-center h-full  text-6xl text-gray-200 '>
-            <FaSquareGithub className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
-            <FaLinkedin className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
-            <FaSquareBehance className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
+          <a href='https://github.com/Ayeshan-Oshitha' target="_blank"> <FaSquareGithub className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /> </a>
+          <a href='https://www.linkedin.com/in/oshitha-costa-740167325/' target="_blank"> <FaLinkedin className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /> </a>
+          <a href='https://www.behance.net/ayeshan_oshitha' target="_blank"> <FaSquareBehance className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' /> </a>
             <FaStackOverflow className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
             <IoLogoMedium className='hover:text-purple-300 transform transition-transform duration-700 hover:scale-125' />
           </div>
