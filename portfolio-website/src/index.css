@@ -72,3 +72,9 @@ input:-webkit-autofill {
       background-color: #6B7280;    /* Darker color on hover */
     }
   }
+
+
+  .bullet-list li::marker {
+    color: #c084fc; /* Tailwind's purple-400 color */
+    font-size: 1.25rem; /* You can adjust the size if needed */
+  }
