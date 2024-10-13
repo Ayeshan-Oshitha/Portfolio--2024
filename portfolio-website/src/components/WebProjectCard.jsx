@@ -104,15 +104,15 @@ const WebProjectCard = ({project}) => {
                     {project.description}
                   </p>
                   <p className="mt-4 text-base tracking-wide">
-                    <span className="font-medium">Status :</span>
+                    <span className="font-medium">Status : </span>
                     <span className="font-light">Completed</span>
                   </p>
                   <p className=" text-base tracking-wide">
-                    <span className="font-medium">Started Date :</span>
+                    <span className="font-medium">Started Date : </span>
                     <span className="font-light">Completed</span>
                   </p>
                   <p className=" text-base tracking-wide">
-                    <span className="font-medium">End Date :</span>
+                    <span className="font-medium">End Date : </span>
                     <span className="font-light">Completed</span>
                   </p>
 
@@ -121,7 +121,7 @@ const WebProjectCard = ({project}) => {
                       <img
                         key={index}
                         src={img}
-                        className="w-40 mb-6"
+                        className="w-52 mb-6 cursor-pointer"
                         onClick={() => handleImgClick(index)}
                       />
                     ))}
