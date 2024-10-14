@@ -7,7 +7,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 
-import logo from '../assets/logo/Logo.png'
+import logo from '../assets/logo/Logo3.png'
 
 const Navigation = () => {
 
@@ -42,7 +42,7 @@ const Navigation = () => {
 
              {/* Logo section    */}
             <div className='col-span-3 lg:col-span-2 flex justify-center items-center order-1 lg:order-1'>
-                {/* <p className='text-purple-400 h-full'> <span className='text-6xl mr-[-12px] font-semibold'>  A </span> <span className='text-7xl'>  o </span> </p> */}
+                <img src={logo} className='w-16' />
             </div>
 
             {/* Navigation Section */}
