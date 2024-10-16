@@ -42,7 +42,7 @@ const Navigation = () => {
 
              {/* Logo section    */}
             <div className='col-span-3 lg:col-span-2 flex justify-center items-center order-1 lg:order-1'>
-                <img src={logo} className='w-16' />
+              <a href='/'> <img src={logo} className='w-16' /> </a> 
             </div>
 
             {/* Navigation Section */}

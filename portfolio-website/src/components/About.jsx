@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Container.module.css'
-import ProfileImg from '../assets/images/Home/ProfileImg.jpg'
+import ProfileImg from '../assets/images/Home/ProfileImg6.png'
 import cv from '../assets/CV/Ayeshan_Oshitha.pdf'
 import { NavLink } from 'react-router-dom';
 

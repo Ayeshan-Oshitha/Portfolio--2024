@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Container.module.css'
-import ProfileImg from '../assets/images/Home/ProfileImg.jpg'
+import ProfileImg from '../assets/images/Home/ProfileImg6.png'
 import { LiaArrowCircleRightSolid } from "react-icons/lia";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
