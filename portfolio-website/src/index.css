@@ -1,80 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    --lightPurple: #9747FF;
-    --secondaryPurple: #7F24F5;
-    --boxBackground:#141316;
-    --boxBorder:1px solid #3d3d3d;
-    --boxBorderRadius:15px;
+  --lightPurple: #9747ff;
+  --secondaryPurple: #7f24f5;
+  --boxBackground: #141316;
+  --boxBorder: 1px solid #3d3d3d;
+  --boxBorderRadius: 15px;
 }
-
 
 html,
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #0A090D;
-    font-family: "Kanit", sans-serif;
-    color:white
+  margin: 0;
+  padding: 0;
+  background-color: #0a090d;
+  font-family: "Kanit", sans-serif;
+  color: white;
 }
-
-
 
 p,
 h1,
 h2,
 h3 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-
 input:-webkit-autofill {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 input:-webkit-autofill::first-line {
-    font-size: 16px; 
-    color: white; 
+  font-size: 16px;
+  color: white;
 }
 
 input:-webkit-autofill {
-    transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
 }
-
 
 /* custom scroll bar */
 
 .custom-scrollbar {
-    scrollbar-width: thin;          /* For Firefox */
-    scrollbar-color: #9CA3AF #1F2937;  /* Scrollbar color for Firefox */
-  
-    /* Webkit-based browsers */
-    &::-webkit-scrollbar {
-      width: 8px;
-    }
-  
-    &::-webkit-scrollbar-track {
-      background: #1F2937;         /* Background of the track */
-    }
-  
-    &::-webkit-scrollbar-thumb {
-      background-color: #9CA3AF;    /* Scrollbar color */
-      border-radius: 10px;          /* Rounded corners */
-      border: 2px solid transparent; /* Extra padding around the scrollbar thumb */
-    }
-  
-    &::-webkit-scrollbar-thumb:hover {
-      background-color: #6B7280;    /* Darker color on hover */
-    }
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #9ca3af #1f2937; /* Scrollbar color for Firefox */
+
+  /* Webkit-based browsers */
+  &::-webkit-scrollbar {
+    width: 8px;
   }
 
-
-  .bullet-list li::marker {
-    color: #c084fc; /* Tailwind's purple-400 color */
-    font-size: 1.25rem; /* You can adjust the size if needed */
+  &::-webkit-scrollbar-track {
+    background: #1f2937; /* Background of the track */
   }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #9ca3af; /* Scrollbar color */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid transparent; /* Extra padding around the scrollbar thumb */
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #6b7280; /* Darker color on hover */
+  }
+}
+
+.bullet-list li::marker {
+  color: #c084fc; /* Tailwind's purple-400 color */
+  font-size: 1.25rem; /* You can adjust the size if needed */
+}
+
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
