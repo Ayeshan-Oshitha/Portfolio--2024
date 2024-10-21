@@ -76,3 +76,7 @@ input:-webkit-autofill {
 .aos-init[data-aos][data-aos].aos-animate {
   transform: unset;
 }
+
+.aos-fix[data-aos][data-aos].aos-animate {
+  transform: initial;
+}

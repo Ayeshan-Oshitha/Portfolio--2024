@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 const TestimonialCard = ({ image, name, country, projectType, review }) => {
   return (
     <>
-      <div className="w-96  min-h-[500px]  p-3 " id={styles.boxContainer} data-aos="fade-up" data-aos-duration="400">
+      <div className="z-0 w-96  min-h-[500px]  p-3 " id={styles.boxContainer} data-aos="fade-up" data-aos-duration="400">
         <div className="w-full flex flex-col items-center">
           <img src={image} className="w-24 rounded-full mt-3 " />
           <p className="mt-6 text-2xl">{name}</p>

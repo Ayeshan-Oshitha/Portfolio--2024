@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/Container.module.css";
 import GraphicProjectImg from "../assets/images/Home/GraphicProjectImg.jpg";
 
@@ -48,17 +48,21 @@ const WebProjectCard = ({ project }) => {
     setSelectedImgIndex((prevIndex) => (prevIndex === project.images.length - 1 ? 0 : prevIndex + 1));
   };
 
+  useEffect(() => {
+    console.log(showOverlay);
+  }, [showOverlay]);
+
   return (
     <>
       <div
-        data-aos="zoom-in-up"
-        className=" w-full lg:w-[450px]  lg:h-[540px] border-purple-300 border-2  "
+        className=" w-full lg:w-[450px] lg:h-[540px] border-purple-300 border-2  "
+        data-aos="zoom-in"
         style={{
           backgroundColor: "var(--boxBackground)",
           borderRadius: "var(--boxBorderRadius)",
         }}
       >
-        <div className="flex flex-col items-center w-full h-full  ">
+        <div className=" flex flex-col items-center w-full h-full  ">
           <img src={project.cover} className=" w-full h-1/2 object-cover  rounded-t-[12px] object-top" />
           <p className="mt-4 text-2xl text-purple-400 font-medium tracking-wider">{project.title}</p>
           <p className="mt-2 text-gray-400">{project.mainCateogary}</p>
@@ -70,11 +74,11 @@ const WebProjectCard = ({ project }) => {
           </button>
 
           {showOverlay && (
-            <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-90 z-50 py-12  ">
+            <div className="translate-z-50 fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-90  py-12   ">
               <div
+                data-aos="zoom-in"
                 className=" rounded-lg shadow-lg  w-5/6 h-[600px]  relative overflow-auto custom-scrollbar "
                 id={styles.boxContainer}
-                data-aos="zoom-in"
               >
                 <div className="p-6 flex flex-col items-center h-full ">
                   <button
@@ -117,7 +121,7 @@ const WebProjectCard = ({ project }) => {
                   </div>
 
                   {selectedImgIndex !== null && (
-                    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50 lg:mx-20 lg:my-12">
+                    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80  lg:mx-20 lg:my-12">
                       <button
                         onClick={closeFullscreen}
                         className="absolute top-6 right-6 text-white bg-red-500 hover:bg-red-600 rounded-full p-1 text-3xl"

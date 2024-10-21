@@ -35,7 +35,7 @@ const Home = () => {
         {/* ---------- Profile section ---------- */}
         <div
           data-aos="fade-right"
-          className="min-h-20 col-span-12  lg:col-span-3 lg:row-span-2 px-8 lg:px-0 py-2 flex flex-col items-center order-1 lg:order-1"
+          className="z-0 min-h-20 col-span-12  lg:col-span-3 lg:row-span-2 px-8 lg:px-0 py-2 flex flex-col items-center order-1 lg:order-1"
           id={styles.boxContainer}
         >
           <img src={ProfileImg} className="w-40 rounded-full mt-6 " />
@@ -54,7 +54,7 @@ const Home = () => {
         {/* ---------- Title section ---------- */}
         <div
           data-aos="fade-up"
-          className="min-h-20 col-span-6  lg:col-span-4 2xl:col-span-3 lg:row-span-1 px-10 lg:px-6 py-2 flex flex-col w-full order-2 lg:order-2"
+          className="z-0 min-h-20 col-span-6  lg:col-span-4 2xl:col-span-3 lg:row-span-1 px-10 lg:px-6 py-2 flex flex-col w-full order-2 lg:order-2"
           id={styles.boxContainer}
         >
           <h1 className=" text-purple-500 tracking-wide text-2xl lg:text-2xl mt-3 lg:mt-2 lg:mb-3 ">Title </h1>
@@ -65,7 +65,7 @@ const Home = () => {
         {/* ---------- Social Media section ---------- */}
         <div
           data-aos="fade-left"
-          className="min-h-20 col-span-12  lg:col-span-5 2xl:col-span-6 lg:row-span-1  px-6 lg:px-6 py-8 lg:py-2 flex flex-col order-5 lg:order-3"
+          className="z-0 min-h-20 col-span-12  lg:col-span-5 2xl:col-span-6 lg:row-span-1  px-6 lg:px-6 py-8 lg:py-2 flex flex-col order-5 lg:order-3"
           id={styles.boxContainer}
         >
           <div className="flex flex-row justify-around items-center h-full  text-6xl text-gray-200 ">
@@ -93,7 +93,7 @@ const Home = () => {
         {/* ---------- Services Offering ---------- */}
         <div
           data-aos="zoom-in"
-          className="min-h-20 col-span-12  lg:col-span-6 lg:row-span-2 px-6 lg:px-6 py-2 flex flex-col order-4 lg:order-4"
+          className="z-0 min-h-20 col-span-12  lg:col-span-6 lg:row-span-2 px-6 lg:px-6 py-2 flex flex-col order-4 lg:order-4"
           id={styles.boxContainer}
         >
           <p className="text-4xl font-medium mt-3 mb-8">Services Offering</p>
@@ -127,7 +127,7 @@ const Home = () => {
         {/* ---------- Data section ---------- */}
         <div
           data-aos="fade-left"
-          className="min-h-20 col-span-12  lg:col-span-3 lg:row-span-3 px-6 lg:px-6 py-8 flex flex-row  flex-wrap lg:flex-col w-full items-center justify-evenly uppercase order-6 lg:order-5"
+          className="z-0 min-h-20 col-span-12  lg:col-span-3 lg:row-span-3 px-6 lg:px-6 py-8 flex flex-row  flex-wrap lg:flex-col w-full items-center justify-evenly uppercase order-6 lg:order-5"
           id={styles.boxContainer}
         >
           <div className="text-center">
@@ -147,7 +147,7 @@ const Home = () => {
         {/* ---------- Articles section ---------- */}
         <div
           data-aos="fade-right"
-          className="min-h-20 col-span-6  lg:col-span-3 lg:row-span-1 px-6 lg:px-6 py-2 w-full order-3 lg:order-6"
+          className="z-0 min-h-20 col-span-6  lg:col-span-3 lg:row-span-1 px-6 lg:px-6 py-2 w-full order-3 lg:order-6"
           id={styles.boxContainer}
         >
           <p className="text-2xl md:text-4xl font-medium mt-4">Articles</p>
@@ -164,7 +164,7 @@ const Home = () => {
         {/* ---------- Technology section ---------- */}
         <div
           data-aos="fade-right"
-          className="min-h-20 col-span-12  lg:col-span-9 lg:row-span-1 flex flex-col px-6 py-8 lg:px-6 lg:py-4  justify-center order-7 lg:order-7"
+          className="z-0 min-h-20 col-span-12  lg:col-span-9 lg:row-span-1 flex flex-col px-6 py-8 lg:px-6 lg:py-4  justify-center order-7 lg:order-7"
           id={styles.boxContainer}
         >
           <div className="flex flex-row  gap-10 justify-center items-center text-6xl flex-grow flex-wrap lg:flex-nowrap">
@@ -190,7 +190,7 @@ const Home = () => {
         {/* ---------- Web Design Design Section ---------- */}
         <div
           data-aos="zoom-in-up"
-          className="min-h-20 col-span-12  lg:col-span-4 lg:row-span-3 px-6 lg:px-6 py-2 flex flex-col items-center lg:order-1 "
+          className="z-0 min-h-20 col-span-12  lg:col-span-4 lg:row-span-3 px-6 lg:px-6 py-2 flex flex-col items-center lg:order-1 "
           id={styles.boxContainer}
         >
           <p className="self-start ml-6 mt-4 lg:mt-8 text-2xl">See My Latest</p>
@@ -211,7 +211,7 @@ const Home = () => {
         {/* ---------- Graphic Design Section ---------- */}
         <div
           data-aos="zoom-in-up"
-          className="min-h-20 col-span-12  lg:col-span-4 lg:row-span-2 px-6 lg:px-6 py-2 flex flex-col items-center lg:order-2 "
+          className="z-0 min-h-20 col-span-12  lg:col-span-4 lg:row-span-2 px-6 lg:px-6 py-2 flex flex-col items-center lg:order-2 "
           id={styles.boxContainer}
         >
           <p className="mt-3 self-start ml-4 text-xl">Graphic Design Projects</p>
@@ -231,7 +231,7 @@ const Home = () => {
         {/* ---------- Web Review Review Section ---------- */}
         <div
           data-aos="zoom-in-up"
-          className="min-h-20 col-span-6  lg:col-span-4 lg:row-span-1 px-6 lg:px-6 py-2 flex flex-col  lg:order-3"
+          className="z-0 min-h-20 col-span-6  lg:col-span-4 lg:row-span-1 px-6 lg:px-6 py-2 flex flex-col  lg:order-3"
           id={styles.boxContainer}
         >
           <p className="text-lg mt-4 lg:mt-0">See My Latest </p>
@@ -249,7 +249,7 @@ const Home = () => {
         {/* ---------- Graphic Review Section ---------- */}
         <div
           data-aos="zoom-in-up"
-          className="min-h-20 col-span-6  lg:col-span-4 lg:row-span-1 px-6 lg:px-6 py-2 flex flex-col lg:order-4"
+          className="z-0 min-h-20 col-span-6  lg:col-span-4 lg:row-span-1 px-6 lg:px-6 py-2 flex flex-col lg:order-4"
           id={styles.boxContainer}
         >
           <p className="text-lg mt-4 lg:mt-0">See My Latest </p>
@@ -267,7 +267,7 @@ const Home = () => {
         {/* ---------- Contact Section ---------- */}
         <div
           data-aos="zoom-in-up"
-          className="min-h-20 col-span-12  lg:col-span-8 lg:row-span-1 px-12 lg:px-8 py-2  lg:order-5"
+          className="z-0 min-h-20 col-span-12  lg:col-span-8 lg:row-span-1 px-12 lg:px-8 py-2  lg:order-5"
           id={styles.boxContainer}
         >
           <div className=" flex flex-row justify-between  items-end w-full h-full pb-5">

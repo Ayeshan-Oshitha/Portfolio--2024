@@ -14,6 +14,7 @@ import Technologies from "./components/Technologies";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Snowfall from "react-snowfall";
 
 function ScrollToTop() {
   const { pathname } = useLocation(); // Get current route
@@ -35,6 +36,15 @@ function App() {
   return (
     <>
       <Router>
+        <Snowfall
+          color="#c084fc"
+          style={{
+            position: "fixed",
+            width: "100vw",
+            height: "100vh",
+          }}
+          snowflakeCount={170}
+        />
         <ScrollToTop />
         <div className="flex justify-center items-center  selection:bg-cyan-300 selection:text-cyan-900">
           <div className=" mx-8 sm:mx-10 md:mx-20 lg:mx-8 xl:mx-24 mt-8  w-full max-w-[1700px]">

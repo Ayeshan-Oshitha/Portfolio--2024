@@ -53,7 +53,7 @@ const Contact = () => {
     <>
       <div className="grid lg:grid-cols-12 gap-7 min-h-12 mb-7 ">
         {/* ---------- Contact Info ---------- */}
-        <div className="min-h-20 col-span-12  lg:col-span-4  px-12 lg:px-0 py-2 flex flex-col" data-aos="zoom-in-right">
+        <div className=" min-h-20 col-span-12  lg:col-span-4  px-12 lg:px-0 py-2 flex flex-col" data-aos="zoom-in-right">
           <p className="text-purple-500 text-lg">Contact Info</p>
           <p className=" text-6xl mt-2 font-medium">Get In Touch</p>
           <p className="text-gray-400 mt-2 text-xl tracking-wide">Don’t be afraid man! Just say hello</p>
@@ -100,7 +100,11 @@ const Contact = () => {
         </div>
 
         {/* ---------- Contact Form ---------- */}
-        <div className="min-h-20 col-span-12 lg:col-span-8 px-6 sm:px-10 py-14 " id={styles.boxContainer} data-aos="zoom-in-left">
+        <div
+          className=" z-0 min-h-20 col-span-12 lg:col-span-8 px-6 sm:px-10 py-14 "
+          id={styles.boxContainer}
+          data-aos="zoom-in-left"
+        >
           {isSubmitted ? (
             <>
               <p className="text-green-400 text-2xl">Message sent successfully!</p>

@@ -26,7 +26,7 @@ const GraphicProjectCard = ({ project }) => {
 
   return (
     <>
-      <div className="w-[390px]  h-[550px] p-3  " id={styles.boxContainer} data-aos="fade-up" data-aos-duration="400">
+      <div className="z-0 w-[390px]  h-[550px] p-3  " id={styles.boxContainer} data-aos="fade-up" data-aos-duration="400">
         <div className="w-full flex flex-col h-full flex-grow items-center p-3  ">
           <img
             src={project.img[currentImageIndex]}
