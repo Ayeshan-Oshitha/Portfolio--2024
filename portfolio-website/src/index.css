@@ -73,10 +73,10 @@ input:-webkit-autofill {
   font-size: 1.25rem; /* You can adjust the size if needed */
 }
 
-.aos-init[data-aos][data-aos].aos-animate {
+/* .aos-init[data-aos][data-aos].aos-animate {
   transform: unset;
 }
 
 .aos-fix[data-aos][data-aos].aos-animate {
   transform: initial;
-}
+} */

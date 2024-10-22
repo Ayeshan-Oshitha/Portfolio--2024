@@ -45,7 +45,7 @@ const Services = () => {
     <>
       <div className="flex flex-col  gap-24 h-auto mb-20  items-center">
         {/* ---------- Web Design ---------- */}
-        <div className="z-0 flex flex-col w-full min-h-20 xl:w-4/5 px-6 py-6" id={styles.boxContainer} data-aos="fade-up">
+        <div className=" flex flex-col w-full min-h-20 xl:w-4/5 px-6 py-6" id={styles.boxContainer} data-aos="fade-up">
           <p className=" text-purple-500 text-3xl font-medium tracking-wider mb-1">Web Design</p>
           <CgWebsite className="text-5xl mb-2 text-purple-500" />
           <hr className="w-full border-gray-300 mt-6 mb-8" />
@@ -150,7 +150,7 @@ const Services = () => {
         </div>
 
         {/* ---------- Mobile Design ---------- */}
-        <div className="z-0 flex flex-col w-full min-h-20 xl:w-4/5 px-6 py-6" id={styles.boxContainer} data-aos="fade-up">
+        <div className=" flex flex-col w-full min-h-20 xl:w-4/5 px-6 py-6" id={styles.boxContainer} data-aos="fade-up">
           <p className=" text-purple-500 text-3xl font-medium tracking-wider mb-1">Mobile Design</p>
           <MdOutlineMobileScreenShare className="text-5xl mb-2 text-purple-500" />
           <hr className="w-full border-gray-300 mt-6 mb-8" />
@@ -197,7 +197,7 @@ const Services = () => {
         </div>
 
         {/* ---------- UI / UX ---------- */}
-        <div className="z-0 flex flex-col w-full min-h-20 xl:w-4/5 px-6 py-6" id={styles.boxContainer} data-aos="fade-up">
+        <div className=" flex flex-col w-full min-h-20 xl:w-4/5 px-6 py-6" id={styles.boxContainer} data-aos="fade-up">
           <p className=" text-purple-500 text-3xl font-medium tracking-wider mb-1">UI / UX</p>
           <GiClick className="text-5xl mb-2 text-purple-500" />
           <hr className="w-full border-gray-300 mt-6 mb-8" />
@@ -231,7 +231,7 @@ const Services = () => {
         </div>
 
         {/* ---------- Book Design ---------- */}
-        <div className="z-0 flex flex-col w-full min-h-20 xl:w-4/5 px-6 py-6" id={styles.boxContainer} data-aos="fade-up">
+        <div className=" flex flex-col w-full min-h-20 xl:w-4/5 px-6 py-6" id={styles.boxContainer} data-aos="fade-up">
           <p className=" text-purple-500 text-3xl font-medium tracking-wider mb-1">Book Design</p>
           <FaBookOpen className="text-5xl mb-2 text-purple-500" />
           <hr className="w-full border-gray-300 mt-6 mb-4" />

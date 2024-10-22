@@ -7,7 +7,7 @@ const WebProjects = () => {
   return (
     <>
       {/* <InProgressPage text='Projects will be added soon.' /> */}
-      <div className="flex flex-row flex-wrap gap-12 justify-center mb-40 ">
+      <div className="flex flex-row flex-wrap gap-12 justify-center mb-40 relative ">
         {WEB_PROJECTS.map((project, index) => (
           <WebProjectCard key={index} project={project} />
         ))}

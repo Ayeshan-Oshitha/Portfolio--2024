@@ -42,21 +42,23 @@ import Pro8img3 from "../assets/images/GraphicProjects/Pro8img3.webp";
 import Pro8img4 from "../assets/images/GraphicProjects/Pro8img4.webp";
 import Pro8img5 from "../assets/images/GraphicProjects/Pro8img5.webp";
 
-import web1Cover from "../assets/images/WebProjects/web1Cover.jpg";
-import Web1img1 from "../assets/images/WebProjects/Web1img1.png";
-import Web1img2 from "../assets/images/WebProjects/Web1img2.png";
-import Web1img3 from "../assets/images/WebProjects/Web1img3.png";
-import Web1img4 from "../assets/images/WebProjects/Web1img4.png";
-import Web1img5 from "../assets/images/WebProjects/Web1img5.png";
-import Web1img6 from "../assets/images/WebProjects/Web1img6.png";
-import Web1img7 from "../assets/images/WebProjects/Web1img7.png";
-import Web1img8 from "../assets/images/WebProjects/Web1img8.png";
-import Web1img9 from "../assets/images/WebProjects/Web1img9.png";
-import Web1img10 from "../assets/images/WebProjects/Web1img10.png";
-import Web1img11 from "../assets/images/WebProjects/Web1img11.png";
-import Web1img12 from "../assets/images/WebProjects/Web1img12.png";
-import Web1img13 from "../assets/images/WebProjects/Web1img13.png";
-import Web1img14 from "../assets/images/WebProjects/Web1img14.png";
+import web1Cover from "../assets/images/WebProjects/Project1/Web1cover.jpg";
+import Web1img1 from "../assets/images/WebProjects/Project1/Web1img1.png";
+import Web1img2 from "../assets/images/WebProjects/Project1/Web1img2.png";
+import Web1img3 from "../assets/images/WebProjects/Project1/Web1img3.png";
+import Web1img4 from "../assets/images/WebProjects/Project1/Web1img4.png";
+import Web1img5 from "../assets/images/WebProjects/Project1/Web1img5.png";
+import Web1img6 from "../assets/images/WebProjects/Project1/Web1img6.png";
+import Web1img7 from "../assets/images/WebProjects/Project1/Web1img7.png";
+import Web1img8 from "../assets/images/WebProjects/Project1/Web1img8.png";
+import Web1img9 from "../assets/images/WebProjects/Project1/Web1img9.png";
+import Web1img10 from "../assets/images/WebProjects/Project1/Web1img10.png";
+import Web1img11 from "../assets/images/WebProjects/Project1/Web1img11.png";
+import Web1img12 from "../assets/images/WebProjects/Project1/Web1img12.png";
+import Web1img13 from "../assets/images/WebProjects/Project1/Web1img13.png";
+import Web1img14 from "../assets/images/WebProjects/Project1/Web1img14.png";
+
+import web2Cover from "../assets/images/WebProjects/Project2/Web2cover.jpg";
 
 export const WEB_TESTOMONIALS = [
   {
@@ -207,14 +209,14 @@ export const WEB_PROJECTS = [
       " Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace ",
   },
   {
-    title: "Clipess",
+    title: "Finshark",
     mainCateogary: "Web Design",
-    type: "Employee Management System",
-    startDate: "2023/12/19",
-    endDate: "2024/7/10",
+    type: "Finance Portfolio Management App",
+    startDate: "2024/09/10",
+    endDate: "2024/09/24",
     status: "Completed",
-    cover: web1Cover,
-    techStack: ["react", ".net", "MsSQL", "Vanilla CSS"],
+    cover: web2Cover,
+    techStack: ["React", ".Net", "MsSQL", "Tailwind CSS", "Typescript"],
     images: [
       Web1img1,
       Web1img2,

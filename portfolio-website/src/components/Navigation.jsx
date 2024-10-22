@@ -35,7 +35,6 @@ const Navigation = () => {
 
   return (
     <div
-      data-aos="zoom-in"
       className="grid grid-cols-12 gap-x-1  h-20 mb-20 relative"
       style={{
         backgroundColor: "var(--boxBackground)",
@@ -76,7 +75,7 @@ const Navigation = () => {
           <RiArrowDropDownLine className="text-4xl " />
           {isDropdownOpen && (
             <div
-              className="absolute top-9 text-base z-[9999] w-52 flex flex-col items-start px-3 py-2 gap-y-1 text-white "
+              className="absolute top-9 text-base  w-52 flex flex-col items-start px-3 py-2 gap-y-1 text-white z-10"
               id={styles.boxContainer}
               data-aos="flip-up"
               data-aos-duration="500"
@@ -106,7 +105,7 @@ const Navigation = () => {
         <div
           data-aos="flip-up"
           data-aos-duration="500"
-          className="absolute self-end  top-20 mt-2  z-50 w-full shadow-2xl lg:hidden flex flex-col items-end p-5 gap-y-2 select-none "
+          className="z-10 absolute self-end  top-20 mt-2   w-full shadow-2xl lg:hidden flex flex-col items-end p-5 gap-y-2 select-none "
           style={{
             backgroundColor: "var(--boxBackground)",
             border: "2px solid #9747FF",

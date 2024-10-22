@@ -23,7 +23,7 @@ const About = () => {
         {/* ---------- Description Section ---------- */}
         <div
           data-aos="zoom-in-up"
-          className="min-h-20 col-span-12  lg:col-span-8 px-12 lg:px-12 py-2 order-2 lg:order-1 z-0"
+          className="min-h-20 col-span-12  lg:col-span-8 px-12 lg:px-12 py-2 order-2 lg:order-1"
           id={styles.boxContainer}
         >
           <p className="mt-6 text-4xl tracking-wider">Hello, </p>
@@ -43,7 +43,7 @@ const About = () => {
         {/* ---------- Image Section ---------- */}
         <div
           data-aos="zoom-in-up"
-          className="min-h-20 col-span-12  lg:col-span-4   px-12 lg:px-0 py-8 lg:py-2 flex justify-center items-center order-1 lg:order-2 z-0"
+          className="min-h-20 col-span-12  lg:col-span-4   px-12 lg:px-0 py-8 lg:py-2 flex justify-center items-center order-1 lg:order-2"
           id={styles.boxContainer}
         >
           <img src={ProfileImg} className="w-48 lg:w-60 rounded-full" />
@@ -53,11 +53,7 @@ const About = () => {
       {/* ++++++++++++++ Second Grid  ++++++++++++++ */}
       <div className="grid lg:grid-cols-12 gap-7 min-h-12 lg:h-[250px]  mb-7">
         {/* ---------- Education Section ---------- */}
-        <div
-          className="min-h-20 col-span-12  lg:col-span-4 px-12 lg:px-12 py-6 z-0 "
-          data-aos="zoom-in-up"
-          id={styles.boxContainer}
-        >
+        <div className="min-h-20 col-span-12  lg:col-span-4 px-12 lg:px-12 py-6 " data-aos="zoom-in-up" id={styles.boxContainer}>
           <p className="text-3xl">Education</p>
           <div className="flex flex-row">
             <div className="lg:mt-6">
@@ -69,11 +65,7 @@ const About = () => {
         </div>
 
         {/* ---------- Certificate Section ---------- */}
-        <div
-          className="min-h-20 col-span-12  lg:col-span-8  px-12 lg:px-12 py-6 z-0"
-          data-aos="zoom-in-up"
-          id={styles.boxContainer}
-        >
+        <div className="min-h-20 col-span-12  lg:col-span-8  px-12 lg:px-12 py-6 " data-aos="zoom-in-up" id={styles.boxContainer}>
           <p className="text-3xl">Certificate</p>
           <div className=" mt-4 flex flex-col gap-y-2">
             <div className="flex flex-row items-center">
@@ -117,7 +109,7 @@ const About = () => {
       <div className="grid lg:grid-cols-12 gap-7 min-h-12 lg:h-[200px]  mb-20">
         {/* ---------- Profile Section ---------- */}
         <div
-          className="min-h-20 col-span-12  lg:col-span-7 px-12 lg:px-6 py-8 lg:py-2 flex flex-col justify-center items-center z-0"
+          className="min-h-20 col-span-12  lg:col-span-7 px-12 lg:px-6 py-8 lg:py-2 flex flex-col justify-center items-center "
           id={styles.boxContainer}
           data-aos="zoom-in-up"
         >
@@ -152,11 +144,7 @@ const About = () => {
         </div>
 
         {/* ---------- Contact Section ---------- */}
-        <div
-          className="min-h-20 col-span-12  lg:col-span-5  px-12 lg:px-6 py-2 z-0"
-          data-aos="zoom-in-up"
-          id={styles.boxContainer}
-        >
+        <div className="min-h-20 col-span-12  lg:col-span-5  px-12 lg:px-6 py-2 " data-aos="zoom-in-up" id={styles.boxContainer}>
           <div className=" flex flex-row justify-between items-end  w-full pb-5">
             <div className="flex flex-row flex-wrap lg:flex-col mt-4">
               <p className=" text-3xl font-medium tracking-wide">Let's Work </p>

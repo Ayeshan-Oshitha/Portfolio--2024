@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="grid lg:grid-cols-12 gap-7 min-h-12 mb-7 ">
+      <div className="grid lg:grid-cols-12 gap-7 min-h-12 mb-7  ">
         {/* ---------- Contact Info ---------- */}
         <div className=" min-h-20 col-span-12  lg:col-span-4  px-12 lg:px-0 py-2 flex flex-col" data-aos="zoom-in-right">
           <p className="text-purple-500 text-lg">Contact Info</p>
@@ -101,7 +101,7 @@ const Contact = () => {
 
         {/* ---------- Contact Form ---------- */}
         <div
-          className=" z-0 min-h-20 col-span-12 lg:col-span-8 px-6 sm:px-10 py-14 "
+          className="  min-h-20 col-span-12 lg:col-span-8 px-6 sm:px-10 py-14  "
           id={styles.boxContainer}
           data-aos="zoom-in-left"
         >
