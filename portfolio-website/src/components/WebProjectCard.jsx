@@ -43,9 +43,9 @@ const WebProjectCard = ({ project }) => {
           </button>
 
           {showOverlay && (
-            <div className=" fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-90  py-12   ">
+            <div className=" fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-90 py-4  lg:py-12     ">
               <div
-                className=" rounded-lg shadow-lg  w-5/6 h-[600px]   overflow-auto custom-scrollbar "
+                className=" rounded-lg shadow-lg  w-5/6 h-full lg:h-[600px]   overflow-auto custom-scrollbar  "
                 id={styles.boxContainer}
                 data-aos="zoom-in"
               >

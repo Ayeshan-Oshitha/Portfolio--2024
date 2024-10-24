@@ -59,6 +59,14 @@ import Web1img13 from "../assets/images/WebProjects/Project1/Web1img13.png";
 import Web1img14 from "../assets/images/WebProjects/Project1/Web1img14.png";
 
 import web2Cover from "../assets/images/WebProjects/Project2/Web2cover.jpg";
+import Web2img1 from "../assets/images/WebProjects/Project2/img1.png";
+import Web2img2 from "../assets/images/WebProjects/Project2/img2.png";
+
+import Web3Cover from "../assets/images/WebProjects/Project3/Web3Cover.png";
+import Web3img1 from "../assets/images/WebProjects/Project3/img1.png";
+import Web3img2 from "../assets/images/WebProjects/Project3/img2.png";
+import Web3img3 from "../assets/images/WebProjects/Project3/img3.png";
+import Web3img4 from "../assets/images/WebProjects/Project3/img4.png";
 
 export const WEB_TESTOMONIALS = [
   {
@@ -217,52 +225,20 @@ export const WEB_PROJECTS = [
     status: "Completed",
     cover: web2Cover,
     techStack: ["React", ".Net", "MsSQL", "Tailwind CSS", "Typescript"],
-    images: [
-      Web1img1,
-      Web1img2,
-      Web1img3,
-      Web1img4,
-      Web1img5,
-      Web1img6,
-      Web1img6,
-      Web1img7,
-      Web1img8,
-      Web1img9,
-      Web1img10,
-      Web1img11,
-      Web1img12,
-      Web1img13,
-      Web1img14,
-    ],
+    images: [Web2img1, Web2img2],
     description:
       " Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace. Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace . Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace . Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace . Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace ",
   },
   {
-    title: "Clipess",
-    mainCateogary: "Web Design",
-    type: "Employee Management System",
-    startDate: "2023/12/19",
-    endDate: "2024/7/10",
-    status: "Completed",
-    cover: web1Cover,
-    techStack: ["react", ".net", "MsSQL", "Vanilla CSS"],
-    images: [
-      Web1img1,
-      Web1img2,
-      Web1img3,
-      Web1img4,
-      Web1img5,
-      Web1img6,
-      Web1img6,
-      Web1img7,
-      Web1img8,
-      Web1img9,
-      Web1img10,
-      Web1img11,
-      Web1img12,
-      Web1img13,
-      Web1img14,
-    ],
+    title: "Lesson Plan Generator",
+    mainCateogary: "AI based Web Design",
+    type: "AI lesson plan generatr",
+    startDate: "2024/10/17",
+    endDate: "-",
+    status: "Ongoing",
+    cover: Web3Cover,
+    techStack: ["Next js", "Typescript", "Tailwind CSS", "ShadCN", "Prisma", "Postgree(NeonDB)", "Stripe", "Kinde"],
+    images: [Web3img1, Web3img2, Web3img3, Web3img4],
     description:
       " Employee Management System is an advanced software solution designed to streamline and simplify all HR processes within an organization. This system helps companies efficiently  manage employee data, from onboarding to offboarding, while ensuring compliance and fostering a positive workplace ",
   },
