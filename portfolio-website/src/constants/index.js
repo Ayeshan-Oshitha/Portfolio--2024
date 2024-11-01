@@ -62,7 +62,7 @@ import web2Cover from "../assets/images/WebProjects/Project2/Web2cover.jpg";
 import Web2img1 from "../assets/images/WebProjects/Project2/img1.png";
 import Web2img2 from "../assets/images/WebProjects/Project2/img2.png";
 
-import Web3Cover from "../assets/images/WebProjects/Project3/Web3Cover.png";
+import Web3Cover from "../assets/images/WebProjects/Project3/Web3cover.png";
 import Web3img1 from "../assets/images/WebProjects/Project3/img1.png";
 import Web3img2 from "../assets/images/WebProjects/Project3/img2.png";
 import Web3img3 from "../assets/images/WebProjects/Project3/img3.png";
