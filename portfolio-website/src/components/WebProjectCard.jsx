@@ -85,7 +85,7 @@ const WebProjectCard = ({ project }) => {
 
                   <div className="flex flex-row flex-wrap mt-16 gap-4 justify-center">
                     {project.images.map((img, index) => (
-                      <img key={index} src={img} className="w-52 mb-6 cursor-pointer" onClick={() => handleImgClick(index)} />
+                      <img key={index} src={img} className="w-52 mb-6 cursor-pointer" />
                     ))}
                   </div>
                 </div>
