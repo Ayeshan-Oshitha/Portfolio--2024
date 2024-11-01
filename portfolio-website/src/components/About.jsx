@@ -134,11 +134,11 @@ const About = () => {
             </a>
             <a href="https://www.fiverr.com/ayeshan_27?public_mode=true" target="_blank">
               {" "}
-              <FaSquareUpwork className="hover:text-purple-300 transform transition-transform duration-700 hover:scale-125" />
+              <SiFiverr className="hover:text-purple-300 transform transition-transform duration-700 hover:scale-125" />
             </a>
             <a href="https://www.upwork.com/freelancers/~017985443d957402c2?mp_source=share" target="_blank">
               {" "}
-              <SiFiverr className="hover:text-purple-300 transform transition-transform duration-700 hover:scale-125" />
+              <FaSquareUpwork className="hover:text-purple-300 transform transition-transform duration-700 hover:scale-125" />
             </a>
           </div>
         </div>
@@ -152,7 +152,7 @@ const About = () => {
             </div>
           </div>
           <NavLink
-            to="/about"
+            to="/contact"
             className="flex flex-row flex-grow lg:mt-8 lg:mb-2 justify-between items-center w-full  hover:text-purple-400 transform transition-transform duration-500 hover:scale-105"
           >
             <p className="text-md tracking-wide">Get in Touch</p>

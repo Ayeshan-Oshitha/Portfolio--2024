@@ -131,15 +131,15 @@ const Home = () => {
           id={styles.boxContainer}
         >
           <div className="text-center">
-            <p className="text-8xl">06</p>
+            <p className="text-8xl">+01</p>
             <p className="font-light text-lg text-gray-300 mt-2 ">Year Experience</p>
           </div>
           <div className="text-center">
-            <p className="text-8xl">+10</p>
+            <p className="text-8xl">+03</p>
             <p className="font-light text-lg text-gray-300 mt-2">Projects</p>
           </div>
           <div className="text-center">
-            <p className="text-8xl">+27</p>
+            <p className="text-8xl">+02</p>
             <p className="font-light text-lg text-gray-300 mt-2">Clients worldwide</p>
           </div>
         </div>

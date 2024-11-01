@@ -118,7 +118,7 @@ const Navigation = () => {
           <NavLink to="/about" className=" hover:text-purple-400" onClick={toggleMobileMenu}>
             About
           </NavLink>
-          <NavLink to="/webTestimonials" className=" hover:text-purple-400" onClick={toggleMobileMenu}>
+          <NavLink to="/webProjects" className=" hover:text-purple-400" onClick={toggleMobileMenu}>
             Projects
           </NavLink>
           <NavLink to="/services" className=" hover:text-purple-400" onClick={toggleMobileMenu}>
