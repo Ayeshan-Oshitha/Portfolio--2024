@@ -22,22 +22,14 @@ Welcome to my personal portfolio website, developed using **React JS**, **Tailwi
 
 ## Demo
 
-You can view the live demo of the website here: [https://ayeshan.me](https://ayeshan.me/)
+You can view the live demo of the website here -: [https://ayeshan.me](https://ayeshan.me/)
 
 <br/>
 
 ## UI Screenshots
+
 ![image](https://github.com/user-attachments/assets/907dfea5-50c5-4de4-ab48-e95455053725)
 ![image](https://github.com/user-attachments/assets/fb3c1fec-845e-4283-8090-8df03991a4a8)
 ![image](https://github.com/user-attachments/assets/35435468-1c0f-48b3-bc3f-b39e98f01772)
 ![image](https://github.com/user-attachments/assets/8a232b9e-1801-49c6-9a6d-8d9c2974b7ef)
 ![image](https://github.com/user-attachments/assets/c3129d49-ee57-43e2-9d84-a6548f7aa81f)
-
-
-
-
-
-
-
-
-  
